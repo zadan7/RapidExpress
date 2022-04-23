@@ -20,14 +20,12 @@ body{
 }
 h1{
     color: white;
-    padding: 20px;
+    padding: 1em;
     font-size: 3em;
     text-align: center; 
     font-family: sans-serif; 
     font-weight: bold;
-    background-color: black;
     /* line-height: 1.5em; */
-    border-bottom: 2px solid orange;
 }
 
 
@@ -57,13 +55,12 @@ header{
     text-align: center;
     padding: 4px;
     padding-bottom: 0;
-    font-size: 2em;
     
 }
 #link p a{
     text-decoration: none;
     color: black;
-    font-size: 10px;
+    font-size: 0.7em;
 }
 .containers{
     width: 100%;
@@ -180,11 +177,39 @@ footer{
     font-size: 1em;
     padding: 20px;
     border-top: 2px solid orange;
-    position:absolute;
-    bottom: 0px;
 
 }
+form{
+    display: block;
+    text-align: center;
+    
+}
+form input{
+    display: block;
+    font-size: 1.7em;
+    padding: 7px;
+    margin: 8px auto;
+    border: 1px solid black;
+    color: black;
+}
 
+form label{
+    display: block;
+    font-size: 1.7em;
+    padding: 4px;
+    margin: 8px auto;
+    text-align: center;
+    color: black;
+}
+#information{
+    text-align: center;
+}
+.info{
+    border: none;
+}
+#successful{
+    display: none;
+}
 @media screen and (max-width: 500px) {
     .grid-box{
         width: 100%;
